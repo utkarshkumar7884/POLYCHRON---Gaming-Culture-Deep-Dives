@@ -1,0 +1,6 @@
+{
+  "name": "POLYCHRON - Gaming Culture & Deep Dives",
+  "description": "An editorial gaming magazine featuring long-form critiques, design breakdowns, and culture essays across 10 in-depth articles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
