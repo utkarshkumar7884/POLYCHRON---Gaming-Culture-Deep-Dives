@@ -119,7 +119,7 @@ export const ArticleView: React.FC<ArticleViewProps> = ({
     const newComment: CommentItem = {
       id: `comment-${Date.now()}`,
       author: authorName.trim() || 'Fellow Player',
-      avatar: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=120&q=80',
+      avatar: '/images/avatars/reader_avatar.svg',
       date: 'Just now',
       content: commentText.trim(),
       upvotes: 1,

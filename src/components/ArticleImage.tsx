@@ -22,6 +22,13 @@ export const ArticleImage: React.FC<ArticleImageProps> = ({
 }) => {
   const [hasError, setHasError] = useState(false);
   const [isLoaded, setIsLoaded] = useState(false);
+  const imgRef = React.useRef<HTMLImageElement>(null);
+
+  React.useEffect(() => {
+    if (imgRef.current?.complete && imgRef.current.naturalWidth > 0) {
+      setIsLoaded(true);
+    }
+  }, [src]);
 
   // Determine category thematic icon & theme for resilient fallback
   const getThematicDetails = (cat: string) => {
@@ -117,6 +124,7 @@ export const ArticleImage: React.FC<ArticleImageProps> = ({
       </div>
 
       <img
+        ref={imgRef}
         src={src}
         alt={alt}
         referrerPolicy="no-referrer"
@@ -124,7 +132,7 @@ export const ArticleImage: React.FC<ArticleImageProps> = ({
         decoding="async"
         onLoad={() => setIsLoaded(true)}
         onError={() => setHasError(true)}
-        className={`w-full h-full object-cover transition-all duration-500 ${
+        className={`w-full h-full object-cover transition-all duration-300 ${
           isLoaded ? 'opacity-100 scale-100' : 'opacity-0 scale-102'
         }`}
       />

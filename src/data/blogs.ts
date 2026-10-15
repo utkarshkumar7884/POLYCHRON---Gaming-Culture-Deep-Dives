@@ -13,12 +13,12 @@ export const BLOG_POSTS: BlogPost[] = [
     author: {
       name: 'Elena Vance',
       title: 'Senior Systems Critic',
-      avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=240&q=80',
+      avatar: '/images/avatars/elena_vance.svg',
       bio: 'Elena has documented level design and environmental storytelling across fifteen years of European and Japanese game development.'
     },
     publishedAt: 'October 11, 2026',
     readTimeMinutes: 7,
-    heroImage: '/src/assets/images/game_elden_world_1791913617463.jpg',
+    heroImage: '/images/elden_ring.jpg',
     imageCaption: 'The Lands Between relies on vertical focal beacons—such as the Erdtree and ruined spires—to establish unconscious player bearings.',
     imageAlt: 'Gothic ruined castle spires in atmospheric mist with towering golden glowing Erdtree in Elden Ring open world landscape',
     featured: true,
@@ -95,7 +95,7 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         id: 'c1',
         author: 'Kaelen Ross',
-        avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&q=80',
+        avatar: '/images/avatars/reader_avatar.svg',
         date: '2 hours ago',
         content: 'The comparison to Friedrich’s romantic landscapes is spot on. That first view when you enter Liurnia of the Lakes after beating Godrick stopped me cold for a solid five minutes.',
         upvotes: 43
@@ -103,7 +103,7 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         id: 'c2',
         author: 'Amara Chen',
-        avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=120&q=80',
+        avatar: '/images/avatars/maya_patel.svg',
         date: '5 hours ago',
         content: 'Turning off the HUD in other games usually breaks them because they were designed around markers. In Elden Ring, playing HUD-less feels like the default intended experience.',
         upvotes: 27
@@ -123,12 +123,12 @@ export const BLOG_POSTS: BlogPost[] = [
     author: {
       name: 'Sofia Alvarez',
       title: 'Industry Analyst',
-      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=240&q=80',
+      avatar: '/images/avatars/sofia_alvarez.svg',
       bio: 'Sofia covers the business, studio leadership, and large-scale engineering transitions shaping AAA interactive media.'
     },
     publishedAt: 'October 08, 2026',
     readTimeMinutes: 8,
-    heroImage: '/src/assets/images/game_cyberpunk_neon_1791913618227.jpg',
+    heroImage: '/images/cyberpunk.jpg',
     imageCaption: 'Night City’s rain-slicked asphalt and neon density pushed REDengine 4 to its technological limits before CDPR pivoted to Unreal Engine 5.',
     imageAlt: 'Futuristic cyberpunk city street at night with glowing neon kanji signs, armored operatives, and rain reflections on asphalt',
     featured: false,
@@ -204,7 +204,7 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         id: 'c3',
         author: 'Darius Vance',
-        avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=120&q=80',
+        avatar: '/images/avatars/reader_avatar.svg',
         date: '1 day ago',
         content: 'Phantom Liberty honestly had better storytelling than 90% of cinematic movies released in the last three years. The cynical tone of espionage was brilliant.',
         upvotes: 38
@@ -224,12 +224,12 @@ export const BLOG_POSTS: BlogPost[] = [
     author: {
       name: 'Dr. Cheryl Lin',
       title: 'Cognitive Game Designer',
-      avatar: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=240&q=80',
+      avatar: '/images/avatars/cheryl_lin.svg',
       bio: 'Dr. Lin conducts behavioral research at the intersection of game mechanics, reward schedules, and player agency.'
     },
     publishedAt: 'September 18, 2026',
     readTimeMinutes: 5,
-    heroImage: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=80',
+    heroImage: '/images/roguelike_cards.svg',
     imageCaption: 'The hypnotic allure of procedural card synergies in Balatro and isometric boon combinations in Hades.',
     imageAlt: 'Glowing geometric pattern simulating procedural roguelike card decision paths and mathematical game loops',
     featured: false,
@@ -305,7 +305,7 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         id: 'c8',
         author: 'Nolan Hayes',
-        avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&q=80',
+        avatar: '/images/avatars/reader_avatar.svg',
         date: '6 days ago',
         content: 'Balatro stole 80 hours of my life in two weeks. That sound effect when the multipliers trigger sequentially is pure auditory dopamine.',
         upvotes: 49
@@ -325,12 +325,12 @@ export const BLOG_POSTS: BlogPost[] = [
     author: {
       name: 'Maya Patel',
       title: 'Culture Essayist',
-      avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=240&q=80',
+      avatar: '/images/avatars/maya_patel.svg',
       bio: 'Maya writes on digital mindfulness, community design, and restorative play spaces across independent interactive media.'
     },
     publishedAt: 'October 05, 2026',
     readTimeMinutes: 6,
-    heroImage: '/src/assets/images/game_cozy_indie_1791913619189.jpg',
+    heroImage: '/images/cozy_indie.jpg',
     imageCaption: 'Independent cozy titles build spaces where emotional safety, warm color temperatures, and ambient rain audio replace high-stress win conditions.',
     imageAlt: 'Warm cozy indie cafe with gamer playing handheld console beside rain-streaked window and house plants',
     featured: false,
@@ -393,7 +393,7 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         id: 'c4',
         author: 'Lina Moreau',
-        avatar: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=120&q=80',
+        avatar: '/images/avatars/reader_avatar.svg',
         date: '2 days ago',
         content: 'Unpacking made me cry more than any cinematic war drama. The way you learn about someone’s life purely through what they keep and what they pack away is genius.',
         upvotes: 56
@@ -413,12 +413,12 @@ export const BLOG_POSTS: BlogPost[] = [
     author: {
       name: 'Jaxson Reed',
       title: 'Action Genre Columnist',
-      avatar: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=240&q=80',
+      avatar: '/images/avatars/jaxson_reed.svg',
       bio: 'Jaxson is a tournament veteran and mechanics purist exploring movement speed, hitboxes, and weapon feel.'
     },
     publishedAt: 'October 03, 2026',
     readTimeMinutes: 5,
-    heroImage: '/src/assets/images/game_fps_action_1791913620085.jpg',
+    heroImage: '/images/boomer_shooter.jpg',
     imageCaption: 'Modern retro shooters abandon low-mobility cover mechanics in favor of air-dashing, rocket-jumping, and raw spatial mastery.',
     imageAlt: 'Fast-paced retro arena shooter with futuristic cybernetic soldier firing kinetic laser rifle in industrial corridor',
     featured: false,
@@ -482,7 +482,7 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         id: 'c5',
         author: 'Torin Vance',
-        avatar: 'https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=120&q=80',
+        avatar: '/images/avatars/reader_avatar.svg',
         date: '3 days ago',
         content: 'Punching your own shotgun pellets in Ultrakill to turn them into explosive railgun rounds is the single greatest mechanic in modern gaming history. No debate.',
         upvotes: 62
@@ -502,12 +502,12 @@ export const BLOG_POSTS: BlogPost[] = [
     author: {
       name: 'Marcus Kane',
       title: 'Sound & Immersion Specialist',
-      avatar: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=240&q=80',
+      avatar: '/images/avatars/marcus_kane.svg',
       bio: 'Marcus is an acoustic engineer and game sound designer analyzing binaural rendering, DSP audio pipelines, and stealth audio.'
     },
     publishedAt: 'September 29, 2026',
     readTimeMinutes: 6,
-    heroImage: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=1200&q=80',
+    heroImage: '/images/soundscapes.svg',
     imageCaption: 'Acoustic occlusion and portaling determine whether a guard’s bootstep bounces off marble or gets muffled by heavy velvet drapes.',
     imageAlt: 'Microphone and acoustic soundboard studio setup representing spatial audio engineering in immersive sim video games',
     featured: false,
@@ -571,7 +571,7 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         id: 'c6',
         author: 'Gideon Fox',
-        avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=120&q=80',
+        avatar: '/images/avatars/reader_avatar.svg',
         date: '4 days ago',
         content: 'Thief 2 did acoustic portaling in 2000 on software rendering! The fact that many modern AAA games still fail at wall occlusion is mind-boggling.',
         upvotes: 41
@@ -591,12 +591,12 @@ export const BLOG_POSTS: BlogPost[] = [
     author: {
       name: 'Dr. Aris Thorne',
       title: 'Simulation & Engine Historian',
-      avatar: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=240&q=80',
+      avatar: '/images/avatars/aris_thorne.svg',
       bio: 'Dr. Thorne is a former game engine programmer and university lecturer specializing in computational geometry and collision detection.'
     },
     publishedAt: 'September 24, 2026',
     readTimeMinutes: 8,
-    heroImage: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&q=80',
+    heroImage: '/images/physics_engine.svg',
     imageCaption: 'Real-time physics engines transform static static models into dynamic stress-tested structures capable of procedural fracture.',
     imageAlt: 'Futuristic wireframe server racks and holographic particle grid representing 3D game physics calculation engines',
     featured: false,
@@ -660,7 +660,7 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         id: 'c7',
         author: 'Valerie Frost',
-        avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&q=80',
+        avatar: '/images/avatars/reader_avatar.svg',
         date: '5 days ago',
         content: 'Teardown is genuinely the most impressive physics sandbox since Half-Life 2. The way weight transfer actually brings roofs down is incredible.',
         upvotes: 33
@@ -680,12 +680,12 @@ export const BLOG_POSTS: BlogPost[] = [
     author: {
       name: 'Taro Takahashi',
       title: 'Competitive Platforming Historian',
-      avatar: 'https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=240&q=80',
+      avatar: '/images/avatars/taro_takahashi.svg',
       bio: 'Taro is an archivist of tool-assisted speedruns and real-time community records spanning fourth- and fifth-generation classics.'
     },
     publishedAt: 'September 12, 2026',
     readTimeMinutes: 9,
-    heroImage: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=80',
+    heroImage: '/images/mario_speedrun.svg',
     imageCaption: 'Deconstructing 64-bit coordinate grids and floating-point overflow into high-speed competitive performance art.',
     imageAlt: 'Vintage retro 90s console gaming television and cartridge setup showcasing speedrunning technology',
     featured: false,
@@ -749,7 +749,7 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         id: 'c9',
         author: 'Leo Sterling',
-        avatar: 'https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=120&q=80',
+        avatar: '/images/avatars/reader_avatar.svg',
         date: '1 week ago',
         content: 'Watching puncayshun and cheese fight for seconds on the 120-star leaderboard is more thrilling than Olympic gymnastics. The execution consistency is unreal.',
         upvotes: 44
@@ -769,12 +769,12 @@ export const BLOG_POSTS: BlogPost[] = [
     author: {
       name: 'Devin Zhao',
       title: 'AI Systems Architect',
-      avatar: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=240&q=80',
+      avatar: '/images/avatars/devin_zhao.svg',
       bio: 'Devin works on generative agent architectures, behavioral graphs, and localized real-time inference in modern game engines.'
     },
     publishedAt: 'September 08, 2026',
     readTimeMinutes: 8,
-    heroImage: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1200&q=80',
+    heroImage: '/images/neural_npc.svg',
     imageCaption: 'Local neural network inference allows non-player characters to evaluate spatial memory, faction reputation, and goals in real time.',
     imageAlt: 'Digital matrix node network glowing in green and cyan representing real-time neural AI processing for video game NPCs',
     featured: false,
@@ -838,7 +838,7 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         id: 'c10',
         author: 'Siddharth Rao',
-        avatar: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=120&q=80',
+        avatar: '/images/avatars/reader_avatar.svg',
         date: '1 week ago',
         content: 'Hybrid is definitely the key. Let writers craft the tragic beats and character arcs, but let local models handle the thousand background villagers who otherwise feel like cardboard.',
         upvotes: 35
@@ -858,12 +858,12 @@ export const BLOG_POSTS: BlogPost[] = [
     author: {
       name: 'Julian Becker',
       title: 'Senior Musicologist & Composer',
-      avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=240&q=80',
+      avatar: '/images/avatars/julian_becker.svg',
       bio: 'Julian is an orchestral arranger and interactive audio programmer covering dynamic mixing and leitmotif in digital arts.'
     },
     publishedAt: 'September 02, 2026',
     readTimeMinutes: 6,
-    heroImage: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=1200&q=80',
+    heroImage: '/images/soundtrack_score.svg',
     imageCaption: 'Interactive game scoring requires horizontal re-sequencing and vertical stem mixing that morph seamlessly as combat escalates.',
     imageAlt: 'Concert lights and audio equalizer visualizer representing dynamic multi-track video game soundtrack composition',
     featured: false,
@@ -927,7 +927,7 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         id: 'c11',
         author: 'Celine Dubois',
-        avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=120&q=80',
+        avatar: '/images/avatars/reader_avatar.svg',
         date: '2 weeks ago',
         content: '‘Apotheosis’ in Journey is still the greatest musical climax in gaming history. When you glide through the clouds with your companion, the brass section makes your hair stand on end.',
         upvotes: 68
